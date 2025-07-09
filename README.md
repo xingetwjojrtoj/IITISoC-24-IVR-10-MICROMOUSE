@@ -35,7 +35,7 @@ Members:
    - Does not guarantee shortest path from start to finish.
    - It does not create map of the maze while it navigates. It simply reacts to immidiate responses from the sensors and navigates.
 
-   This is the video depicting the problem faced while using a wall following algorithm:[right_wall_follower]([LINK]([url](https://drive.google.com/file/d/1i9GHAzxoJ6IoAXuxypmXep02S_17EAth/view?usp=sharing)))
+   This is the video depicting the problem faced while using a wall following algorithm:[right_wall_follower](https://drive.google.com/file/d/1i9GHAzxoJ6IoAXuxypmXep02S_17EAth/view?usp=sharing)
    <br>
    The mouse simply loops back to the start as the maze is not simply connected.
 <br>
@@ -52,7 +52,7 @@ Tremaux algorithm keeps a track of each path that it travels through so that it 
 ### *DISADVANTAGES*
 - It requires much more space than a wall follower algorithm since it keeps track of all paths which and  how many times they are taken.
 <br>
-This simulation video shows Treumax algorithm in action:(https://drive.google.com/file/d/1XR3U5SL-y9s6uoXrzSg8DsjEyO8DL3OW/view?usp=sharing)
+This simulation video shows Treumax algorithm in action:[Treumax](https://drive.google.com/file/d/1XR3U5SL-y9s6uoXrzSg8DsjEyO8DL3OW/view?usp=sharing)
 <br>
 <br>
 
@@ -63,7 +63,7 @@ Flood Fill is popular algorithm used in Micromouse competitions to determine the
 The maze is represented as a 2D grid, with each cell containing information about walls and distance to the goal.The water flow starts at the goal, so algorithm assigns value of 0 to the goal. Next, iteratively, it gives neighboring accessible cells progressively greater distance values. Until each reachable cell has a distance value assigned to it, this procedure keeps going.Once the entire maze is filled with distance values, the shortest path from the start to the goal can be determined by following the cells with decreasing distance values. Whenever the mouse identifies any wall in it's path, it makes a layout of the maze and runs floodfill again to assign new distance values to each cell as per the maze layout and it continues until we reach the goal.
 <br> 
 <br>
-This video shows how a floodfill algorithm works:(https://drive.google.com/file/d/1i9GHAzxoJ6IoAXuxypmXep02S_17EAth/view?usp=sharing)
+This video shows how a floodfill algorithm works:[Floodfll](https://drive.google.com/file/d/1i9GHAzxoJ6IoAXuxypmXep02S_17EAth/view?usp=sharing)
 <br>
 <br>
 Since we found floodfill to be most efficient among others, we choose to continue with floodfill algorithm.
