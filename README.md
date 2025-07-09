@@ -52,7 +52,7 @@ Tremaux algorithm keeps a track of each path that it travels through so that it 
 ### *DISADVANTAGES*
 - It requires much more space than a wall follower algorithm since it keeps track of all paths which and  how many times they are taken.
 <br>
-This simulation video shows Treumax algorithm in action:[Treumax](https://drive.google.com/file/d/1XR3U5SL-y9s6uoXrzSg8DsjEyO8DL3OW/view?usp=sharing)
+This simulation video shows Treumax algorithm in action:[Treumax](https://drive.google.com/file/d/1i9GHAzxoJ6IoAXuxypmXep02S_17EAth/view?usp=sharing)
 <br>
 <br>
 
